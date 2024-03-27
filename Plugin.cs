@@ -81,8 +81,6 @@ namespace MicReactor
                 else
                 {
                     GUI.Label(new Rect(35f, 35f, 100f, 50f), "Please Join a Room");
-                    //REMOVE LATER
-                    PhotonNetworkController.Instance.AttemptToJoinSpecificRoom("GRAZE");
                 }
             }
         }
